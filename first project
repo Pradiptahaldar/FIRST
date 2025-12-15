@@ -1,0 +1,29 @@
+#make something on my own!
+a=int(input("enter your firsr number"))
+b=int(input("enter your second number"))
+while a and b >=0:
+    print("welcome to the calculator")
+    print("1.addition")
+    print("2.substraction")
+    print("3.multiplication")
+    print("4.division")
+    print("5. exit")
+    choice=int(input("enter your choice betweeen(1-5)"))
+    if choice>5 and choice==0:
+        print("your choice is invalid")
+    elif choice==1:
+        x=a+b
+        print(f"the number is:{x}")
+    elif choice==2:
+        x=a-b
+        print(f"the number is:{x}")
+    elif choice==3:
+        x=a*b
+        print(f"the number is:{x}")
+    elif choice==4:
+        x=a/b
+        print(f"the nnumber is:{x}")
+    elif choice==5:
+        print(f"thanks for using the calculator")
+else:
+       print("make the numbers input correctly")
